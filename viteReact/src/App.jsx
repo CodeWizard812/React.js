@@ -1,8 +1,13 @@
+import Ch from './Ch';
 
 function App() {
-
+  const username = "baba yaga";
   return (
-    <h1>Hello React | Shirish Bobde</h1>
+    <>
+    `<h1>Kill {username}</h1>
+      < Ch/>
+    </>
+    
   )
 }
 
